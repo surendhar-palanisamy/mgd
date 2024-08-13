@@ -1,0 +1,886 @@
+{
+  "buildManifest": {
+    "serverBundles": {
+      "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0": {
+        "id": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+        "file": "build/server/nodejs-eyJydW50aW1lIjoibm9kZWpzIn0/index.js",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "nodejs-eyJtYXhEdXJhdGlvbiI6MzAwLCJydW50aW1lIjoibm9kZWpzIn0": {
+        "id": "nodejs-eyJtYXhEdXJhdGlvbiI6MzAwLCJydW50aW1lIjoibm9kZWpzIn0",
+        "file": "build/server/nodejs-eyJtYXhEdXJhdGlvbiI6MzAwLCJydW50aW1lIjoibm9kZWpzIn0/index.js",
+        "config": {
+          "maxDuration": 300,
+          "runtime": "nodejs"
+        }
+      }
+    },
+    "routeIdToServerBundleId": {
+      "routes/admin.links.$userId.$fromId.$toId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.chats.$chatId.duplicate": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/survey.deduplications.$userId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/survey.graph-position.$userId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.card.$canonicalCardId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.messages.$chatId.delete": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/case.$caseId.chat-explainer": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/case.$caseId.chat.$threadId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/case.$caseId.link-explainer": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/data.deduplications._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.chat.$chatId.function": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/data.edges.$caseId[.]json": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/case.$caseId.chat._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/survey.thanks.$userId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.messages.$chatId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.chats.$chatId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.votes.$caseId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/case.$caseId.select": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.deduplicator": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.chat-assistant": "nodejs-eyJtYXhEdXJhdGlvbiI6MzAwLCJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/data.edges.$caseId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/data.wisest-values": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/case.$caseId.link": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/data.edges[.]json": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.upgrades": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.data.edges": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.data.votes": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/auth.prolific": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/survey._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/chat.$chatId": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.cards": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.cases": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.chats": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.links": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.merge": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin.votes": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.inngest": "nodejs-eyJtYXhEdXJhdGlvbiI6MzAwLCJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/auth.logout": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/case.select": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/chat._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/start-cccai": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/auth.login": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/data.edges": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/start-ccai": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/auth.code": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/finished": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/_index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/select": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/admin": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/start": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/link": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0"
+    },
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "app/root.tsx",
+        "config": {}
+      },
+      "routes/admin.links.$userId.$fromId.$toId": {
+        "file": "app/routes/admin.links.$userId.$fromId.$toId.tsx",
+        "id": "routes/admin.links.$userId.$fromId.$toId",
+        "path": ":userId/:fromId/:toId",
+        "parentId": "routes/admin.links",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.chats.$chatId.duplicate": {
+        "file": "app/routes/admin.chats.$chatId.duplicate.ts",
+        "id": "routes/admin.chats.$chatId.duplicate",
+        "path": "duplicate",
+        "parentId": "routes/admin.chats.$chatId",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/survey.deduplications.$userId": {
+        "file": "app/routes/survey.deduplications.$userId.tsx",
+        "id": "routes/survey.deduplications.$userId",
+        "path": "survey/deduplications/:userId",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/survey.graph-position.$userId": {
+        "file": "app/routes/survey.graph-position.$userId.tsx",
+        "id": "routes/survey.graph-position.$userId",
+        "path": "survey/graph-position/:userId",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.card.$canonicalCardId": {
+        "file": "app/routes/admin.card.$canonicalCardId.tsx",
+        "id": "routes/admin.card.$canonicalCardId",
+        "path": "card/:canonicalCardId",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.messages.$chatId.delete": {
+        "file": "app/routes/api.messages.$chatId.delete.ts",
+        "id": "routes/api.messages.$chatId.delete",
+        "path": "delete",
+        "parentId": "routes/api.messages.$chatId",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/case.$caseId.chat-explainer": {
+        "file": "app/routes/case.$caseId.chat-explainer.tsx",
+        "id": "routes/case.$caseId.chat-explainer",
+        "path": "case/:caseId/chat-explainer",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/case.$caseId.chat.$threadId": {
+        "file": "app/routes/case.$caseId.chat.$threadId.tsx",
+        "id": "routes/case.$caseId.chat.$threadId",
+        "path": "case/:caseId/chat/:threadId",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/case.$caseId.link-explainer": {
+        "file": "app/routes/case.$caseId.link-explainer.tsx",
+        "id": "routes/case.$caseId.link-explainer",
+        "path": "case/:caseId/link-explainer",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/data.deduplications._index": {
+        "file": "app/routes/data.deduplications._index.tsx",
+        "id": "routes/data.deduplications._index",
+        "path": "data/deduplications",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.chat.$chatId.function": {
+        "file": "app/routes/api.chat.$chatId.function.ts",
+        "id": "routes/api.chat.$chatId.function",
+        "path": "api/chat/:chatId/function",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/data.edges.$caseId[.]json": {
+        "file": "app/routes/data.edges.$caseId[.]json.ts",
+        "id": "routes/data.edges.$caseId[.]json",
+        "path": ":caseId.json",
+        "parentId": "routes/data.edges",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/case.$caseId.chat._index": {
+        "file": "app/routes/case.$caseId.chat._index.tsx",
+        "id": "routes/case.$caseId.chat._index",
+        "path": "case/:caseId/chat",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/survey.thanks.$userId": {
+        "file": "app/routes/survey.thanks.$userId.tsx",
+        "id": "routes/survey.thanks.$userId",
+        "path": "survey/thanks/:userId",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.messages.$chatId": {
+        "file": "app/routes/api.messages.$chatId.ts",
+        "id": "routes/api.messages.$chatId",
+        "path": "api/messages/:chatId",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.chats.$chatId": {
+        "file": "app/routes/admin.chats.$chatId.tsx",
+        "id": "routes/admin.chats.$chatId",
+        "path": ":chatId",
+        "parentId": "routes/admin.chats",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.votes.$caseId": {
+        "file": "app/routes/admin.votes.$caseId.tsx",
+        "id": "routes/admin.votes.$caseId",
+        "path": ":caseId",
+        "parentId": "routes/admin.votes",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/case.$caseId.select": {
+        "file": "app/routes/case.$caseId.select.tsx",
+        "id": "routes/case.$caseId.select",
+        "path": "case/:caseId/select",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.deduplicator": {
+        "file": "app/routes/admin.deduplicator.tsx",
+        "id": "routes/admin.deduplicator",
+        "path": "deduplicator",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.chat-assistant": {
+        "file": "app/routes/api.chat-assistant.ts",
+        "id": "routes/api.chat-assistant",
+        "path": "api/chat-assistant",
+        "parentId": "root",
+        "config": {
+          "maxDuration": 300,
+          "runtime": "nodejs"
+        }
+      },
+      "routes/data.edges.$caseId": {
+        "file": "app/routes/data.edges.$caseId.tsx",
+        "id": "routes/data.edges.$caseId",
+        "path": ":caseId",
+        "parentId": "routes/data.edges",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/data.wisest-values": {
+        "file": "app/routes/data.wisest-values.ts",
+        "id": "routes/data.wisest-values",
+        "path": "data/wisest-values",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/case.$caseId.link": {
+        "file": "app/routes/case.$caseId.link.tsx",
+        "id": "routes/case.$caseId.link",
+        "path": "case/:caseId/link",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/data.edges[.]json": {
+        "file": "app/routes/data.edges[.]json.ts",
+        "id": "routes/data.edges[.]json",
+        "path": "data/edges.json",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.upgrades": {
+        "file": "app/routes/admin.upgrades.tsx",
+        "id": "routes/admin.upgrades",
+        "path": "upgrades",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.data.edges": {
+        "file": "app/routes/api.data.edges.ts",
+        "id": "routes/api.data.edges",
+        "path": "api/data/edges",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.data.votes": {
+        "file": "app/routes/api.data.votes.ts",
+        "id": "routes/api.data.votes",
+        "path": "api/data/votes",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/auth.prolific": {
+        "file": "app/routes/auth.prolific.tsx",
+        "id": "routes/auth.prolific",
+        "path": "auth/prolific",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/survey._index": {
+        "file": "app/routes/survey._index.ts",
+        "id": "routes/survey._index",
+        "path": "survey",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/chat.$chatId": {
+        "file": "app/routes/chat.$chatId.tsx",
+        "id": "routes/chat.$chatId",
+        "path": "chat/:chatId",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.cards": {
+        "file": "app/routes/admin.cards.tsx",
+        "id": "routes/admin.cards",
+        "path": "cards",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.cases": {
+        "file": "app/routes/admin.cases.tsx",
+        "id": "routes/admin.cases",
+        "path": "cases",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.chats": {
+        "file": "app/routes/admin.chats.tsx",
+        "id": "routes/admin.chats",
+        "path": "chats",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.links": {
+        "file": "app/routes/admin.links.tsx",
+        "id": "routes/admin.links",
+        "path": "links",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.merge": {
+        "file": "app/routes/admin.merge.tsx",
+        "id": "routes/admin.merge",
+        "path": "merge",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin.votes": {
+        "file": "app/routes/admin.votes.tsx",
+        "id": "routes/admin.votes",
+        "path": "votes",
+        "parentId": "routes/admin",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.inngest": {
+        "file": "app/routes/api.inngest.ts",
+        "id": "routes/api.inngest",
+        "path": "api/inngest",
+        "parentId": "root",
+        "config": {
+          "maxDuration": 300,
+          "runtime": "nodejs"
+        }
+      },
+      "routes/auth.logout": {
+        "file": "app/routes/auth.logout.ts",
+        "id": "routes/auth.logout",
+        "path": "auth/logout",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/case.select": {
+        "file": "app/routes/case.select.tsx",
+        "id": "routes/case.select",
+        "path": "case/select",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/chat._index": {
+        "file": "app/routes/chat._index.tsx",
+        "id": "routes/chat._index",
+        "path": "chat",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/start-cccai": {
+        "file": "app/routes/start-cccai.tsx",
+        "id": "routes/start-cccai",
+        "path": "start-cccai",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/auth.login": {
+        "file": "app/routes/auth.login.tsx",
+        "id": "routes/auth.login",
+        "path": "auth/login",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/data.edges": {
+        "file": "app/routes/data.edges.tsx",
+        "id": "routes/data.edges",
+        "path": "data/edges",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/start-ccai": {
+        "file": "app/routes/start-ccai.tsx",
+        "id": "routes/start-ccai",
+        "path": "start-ccai",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/auth.code": {
+        "file": "app/routes/auth.code.tsx",
+        "id": "routes/auth.code",
+        "path": "auth/code",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/finished": {
+        "file": "app/routes/finished.tsx",
+        "id": "routes/finished",
+        "path": "finished",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/_index": {
+        "file": "app/routes/_index.ts",
+        "id": "routes/_index",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/select": {
+        "file": "app/routes/select.ts",
+        "id": "routes/select",
+        "path": "select",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/admin": {
+        "file": "app/routes/admin.tsx",
+        "id": "routes/admin",
+        "path": "admin",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/start": {
+        "file": "app/routes/start.tsx",
+        "id": "routes/start",
+        "path": "start",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/link": {
+        "file": "app/routes/link.ts",
+        "id": "routes/link",
+        "path": "link",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    }
+  },
+  "remixConfig": {
+    "appDirectory": "/Users/surendharpalanisamy/Desktop/Freelance/longtermtrends/mgd/app",
+    "basename": "/",
+    "buildDirectory": "/Users/surendharpalanisamy/Desktop/Freelance/longtermtrends/mgd/build",
+    "future": {
+      "v3_fetcherPersist": false,
+      "v3_relativeSplatPath": false,
+      "v3_throwAbortReason": false,
+      "unstable_singleFetch": false,
+      "unstable_lazyRouteDiscovery": false
+    },
+    "manifest": false,
+    "publicPath": "/",
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "root.tsx"
+      },
+      "routes/admin.links.$userId.$fromId.$toId": {
+        "file": "routes/admin.links.$userId.$fromId.$toId.tsx",
+        "id": "routes/admin.links.$userId.$fromId.$toId",
+        "path": ":userId/:fromId/:toId",
+        "parentId": "routes/admin.links"
+      },
+      "routes/admin.chats.$chatId.duplicate": {
+        "file": "routes/admin.chats.$chatId.duplicate.ts",
+        "id": "routes/admin.chats.$chatId.duplicate",
+        "path": "duplicate",
+        "parentId": "routes/admin.chats.$chatId"
+      },
+      "routes/survey.deduplications.$userId": {
+        "file": "routes/survey.deduplications.$userId.tsx",
+        "id": "routes/survey.deduplications.$userId",
+        "path": "survey/deduplications/:userId",
+        "parentId": "root"
+      },
+      "routes/survey.graph-position.$userId": {
+        "file": "routes/survey.graph-position.$userId.tsx",
+        "id": "routes/survey.graph-position.$userId",
+        "path": "survey/graph-position/:userId",
+        "parentId": "root"
+      },
+      "routes/admin.card.$canonicalCardId": {
+        "file": "routes/admin.card.$canonicalCardId.tsx",
+        "id": "routes/admin.card.$canonicalCardId",
+        "path": "card/:canonicalCardId",
+        "parentId": "routes/admin"
+      },
+      "routes/api.messages.$chatId.delete": {
+        "file": "routes/api.messages.$chatId.delete.ts",
+        "id": "routes/api.messages.$chatId.delete",
+        "path": "delete",
+        "parentId": "routes/api.messages.$chatId"
+      },
+      "routes/case.$caseId.chat-explainer": {
+        "file": "routes/case.$caseId.chat-explainer.tsx",
+        "id": "routes/case.$caseId.chat-explainer",
+        "path": "case/:caseId/chat-explainer",
+        "parentId": "root"
+      },
+      "routes/case.$caseId.chat.$threadId": {
+        "file": "routes/case.$caseId.chat.$threadId.tsx",
+        "id": "routes/case.$caseId.chat.$threadId",
+        "path": "case/:caseId/chat/:threadId",
+        "parentId": "root"
+      },
+      "routes/case.$caseId.link-explainer": {
+        "file": "routes/case.$caseId.link-explainer.tsx",
+        "id": "routes/case.$caseId.link-explainer",
+        "path": "case/:caseId/link-explainer",
+        "parentId": "root"
+      },
+      "routes/data.deduplications._index": {
+        "file": "routes/data.deduplications._index.tsx",
+        "id": "routes/data.deduplications._index",
+        "path": "data/deduplications",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/api.chat.$chatId.function": {
+        "file": "routes/api.chat.$chatId.function.ts",
+        "id": "routes/api.chat.$chatId.function",
+        "path": "api/chat/:chatId/function",
+        "parentId": "root"
+      },
+      "routes/data.edges.$caseId[.]json": {
+        "file": "routes/data.edges.$caseId[.]json.ts",
+        "id": "routes/data.edges.$caseId[.]json",
+        "path": ":caseId.json",
+        "parentId": "routes/data.edges"
+      },
+      "routes/case.$caseId.chat._index": {
+        "file": "routes/case.$caseId.chat._index.tsx",
+        "id": "routes/case.$caseId.chat._index",
+        "path": "case/:caseId/chat",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/survey.thanks.$userId": {
+        "file": "routes/survey.thanks.$userId.tsx",
+        "id": "routes/survey.thanks.$userId",
+        "path": "survey/thanks/:userId",
+        "parentId": "root"
+      },
+      "routes/api.messages.$chatId": {
+        "file": "routes/api.messages.$chatId.ts",
+        "id": "routes/api.messages.$chatId",
+        "path": "api/messages/:chatId",
+        "parentId": "root"
+      },
+      "routes/admin.chats.$chatId": {
+        "file": "routes/admin.chats.$chatId.tsx",
+        "id": "routes/admin.chats.$chatId",
+        "path": ":chatId",
+        "parentId": "routes/admin.chats"
+      },
+      "routes/admin.votes.$caseId": {
+        "file": "routes/admin.votes.$caseId.tsx",
+        "id": "routes/admin.votes.$caseId",
+        "path": ":caseId",
+        "parentId": "routes/admin.votes"
+      },
+      "routes/case.$caseId.select": {
+        "file": "routes/case.$caseId.select.tsx",
+        "id": "routes/case.$caseId.select",
+        "path": "case/:caseId/select",
+        "parentId": "root"
+      },
+      "routes/admin.deduplicator": {
+        "file": "routes/admin.deduplicator.tsx",
+        "id": "routes/admin.deduplicator",
+        "path": "deduplicator",
+        "parentId": "routes/admin"
+      },
+      "routes/api.chat-assistant": {
+        "file": "routes/api.chat-assistant.ts",
+        "id": "routes/api.chat-assistant",
+        "path": "api/chat-assistant",
+        "parentId": "root"
+      },
+      "routes/data.edges.$caseId": {
+        "file": "routes/data.edges.$caseId.tsx",
+        "id": "routes/data.edges.$caseId",
+        "path": ":caseId",
+        "parentId": "routes/data.edges"
+      },
+      "routes/data.wisest-values": {
+        "file": "routes/data.wisest-values.ts",
+        "id": "routes/data.wisest-values",
+        "path": "data/wisest-values",
+        "parentId": "root"
+      },
+      "routes/case.$caseId.link": {
+        "file": "routes/case.$caseId.link.tsx",
+        "id": "routes/case.$caseId.link",
+        "path": "case/:caseId/link",
+        "parentId": "root"
+      },
+      "routes/data.edges[.]json": {
+        "file": "routes/data.edges[.]json.ts",
+        "id": "routes/data.edges[.]json",
+        "path": "data/edges.json",
+        "parentId": "root"
+      },
+      "routes/admin.upgrades": {
+        "file": "routes/admin.upgrades.tsx",
+        "id": "routes/admin.upgrades",
+        "path": "upgrades",
+        "parentId": "routes/admin"
+      },
+      "routes/api.data.edges": {
+        "file": "routes/api.data.edges.ts",
+        "id": "routes/api.data.edges",
+        "path": "api/data/edges",
+        "parentId": "root"
+      },
+      "routes/api.data.votes": {
+        "file": "routes/api.data.votes.ts",
+        "id": "routes/api.data.votes",
+        "path": "api/data/votes",
+        "parentId": "root"
+      },
+      "routes/auth.prolific": {
+        "file": "routes/auth.prolific.tsx",
+        "id": "routes/auth.prolific",
+        "path": "auth/prolific",
+        "parentId": "root"
+      },
+      "routes/survey._index": {
+        "file": "routes/survey._index.ts",
+        "id": "routes/survey._index",
+        "path": "survey",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/chat.$chatId": {
+        "file": "routes/chat.$chatId.tsx",
+        "id": "routes/chat.$chatId",
+        "path": "chat/:chatId",
+        "parentId": "root"
+      },
+      "routes/admin.cards": {
+        "file": "routes/admin.cards.tsx",
+        "id": "routes/admin.cards",
+        "path": "cards",
+        "parentId": "routes/admin"
+      },
+      "routes/admin.cases": {
+        "file": "routes/admin.cases.tsx",
+        "id": "routes/admin.cases",
+        "path": "cases",
+        "parentId": "routes/admin"
+      },
+      "routes/admin.chats": {
+        "file": "routes/admin.chats.tsx",
+        "id": "routes/admin.chats",
+        "path": "chats",
+        "parentId": "routes/admin"
+      },
+      "routes/admin.links": {
+        "file": "routes/admin.links.tsx",
+        "id": "routes/admin.links",
+        "path": "links",
+        "parentId": "routes/admin"
+      },
+      "routes/admin.merge": {
+        "file": "routes/admin.merge.tsx",
+        "id": "routes/admin.merge",
+        "path": "merge",
+        "parentId": "routes/admin"
+      },
+      "routes/admin.votes": {
+        "file": "routes/admin.votes.tsx",
+        "id": "routes/admin.votes",
+        "path": "votes",
+        "parentId": "routes/admin"
+      },
+      "routes/api.inngest": {
+        "file": "routes/api.inngest.ts",
+        "id": "routes/api.inngest",
+        "path": "api/inngest",
+        "parentId": "root"
+      },
+      "routes/auth.logout": {
+        "file": "routes/auth.logout.ts",
+        "id": "routes/auth.logout",
+        "path": "auth/logout",
+        "parentId": "root"
+      },
+      "routes/case.select": {
+        "file": "routes/case.select.tsx",
+        "id": "routes/case.select",
+        "path": "case/select",
+        "parentId": "root"
+      },
+      "routes/chat._index": {
+        "file": "routes/chat._index.tsx",
+        "id": "routes/chat._index",
+        "path": "chat",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/start-cccai": {
+        "file": "routes/start-cccai.tsx",
+        "id": "routes/start-cccai",
+        "path": "start-cccai",
+        "parentId": "root"
+      },
+      "routes/auth.login": {
+        "file": "routes/auth.login.tsx",
+        "id": "routes/auth.login",
+        "path": "auth/login",
+        "parentId": "root"
+      },
+      "routes/data.edges": {
+        "file": "routes/data.edges.tsx",
+        "id": "routes/data.edges",
+        "path": "data/edges",
+        "parentId": "root"
+      },
+      "routes/start-ccai": {
+        "file": "routes/start-ccai.tsx",
+        "id": "routes/start-ccai",
+        "path": "start-ccai",
+        "parentId": "root"
+      },
+      "routes/auth.code": {
+        "file": "routes/auth.code.tsx",
+        "id": "routes/auth.code",
+        "path": "auth/code",
+        "parentId": "root"
+      },
+      "routes/finished": {
+        "file": "routes/finished.tsx",
+        "id": "routes/finished",
+        "path": "finished",
+        "parentId": "root"
+      },
+      "routes/_index": {
+        "file": "routes/_index.ts",
+        "id": "routes/_index",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/select": {
+        "file": "routes/select.ts",
+        "id": "routes/select",
+        "path": "select",
+        "parentId": "root"
+      },
+      "routes/admin": {
+        "file": "routes/admin.tsx",
+        "id": "routes/admin",
+        "path": "admin",
+        "parentId": "root"
+      },
+      "routes/start": {
+        "file": "routes/start.tsx",
+        "id": "routes/start",
+        "path": "start",
+        "parentId": "root"
+      },
+      "routes/link": {
+        "file": "routes/link.ts",
+        "id": "routes/link",
+        "path": "link",
+        "parentId": "root"
+      }
+    },
+    "serverBuildFile": "index.js",
+    "serverModuleFormat": "esm",
+    "ssr": true
+  },
+  "viteConfig": {
+    "build": {
+      "assetsDir": "assets"
+    }
+  }
+}
