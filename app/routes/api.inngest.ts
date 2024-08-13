@@ -22,7 +22,7 @@ const handler = serve(inngest, [
 ])
 
 export const config = {
-  maxDuration: 300
+  maxDuration: 59
 };
 
 export { handler as loader, handler as action }
